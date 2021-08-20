@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 docker run --rm -it \
+  --name cm-testbed \
   -p 8080:8080 \
   -e DEBUG=1 \
   -e STORAGE=local \
